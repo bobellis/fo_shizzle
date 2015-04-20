@@ -1,0 +1,7 @@
+The fo_shizzle method takes in a string and returns the same string with lower case s' replaced with z's except when the s is at the beginning of a word or is capitalized.
+
+Divide the string into letters in a an array and check to see if it's an s
+if it is an s then we need to check if it's the first letter in the word
+
+We'll first split the string into an array of the words and then for each word
+we'll split it into letters and ignore the first letter but check each subsequent letter to see if it's capitalized.
